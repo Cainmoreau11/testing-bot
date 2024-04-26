@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="s4d_on_message" id="BC8b6/!:`7-xuo{rh}1_" x="-167" y="48">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="7*ZMgnv32(x~IC,iQdYN">
+        <value name="IF0">
+          <block type="logic_compare" id=";/tfI4[QROm?|!)L)`x,">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="s4d_message_content" id="g1uZW.4piDD!{){Cf]zn"></block>
+            </value>
+            <value name="B">
+              <block type="text" id="EY%/y_!7(#z$](h)1c^A">
+                <field name="TEXT">test</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="s4d_reply" id="tJYwC@WV;PEk65Ok];Nd">
+            <value name="CONTENT">
+              <shadow type="text" id="{!{hj8:*O6V^jVCnY9:{">
+                <field name="TEXT">Hey!</field>
+              </shadow>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="s4d_login" id=")O7+PL3eS1Br}h;?X9N$" x="288" y="163">
+    <value name="TOKEN">
+      <block type="text" id="a7JxIIyK[Yr~TPL^-{W:">
+        <field name="TEXT">MTIyOTE0NTMxNzc5OTEwMDU1Ng.G2FXYU.83xRh-wOJi2QxQC6YzSQoYc_RHDPnXzLib8PjA</field>
+      </block>
+    </value>
+  </block>
+</xml>
